@@ -1,22 +1,17 @@
-// Abstract class
 abstract class Shape {
-    String color;
-
-    // Constructor
+    String color
     Shape(String color) {
         this.color = color;
     }
 
-    // Abstract method (no body)
     abstract double area();
 
-    // Concrete method
+
     void displayColor() {
         System.out.println("Color: " + color);
     }
 }
 
-// Subclass 1
 class Circle extends Shape {
     double radius;
 
@@ -25,14 +20,13 @@ class Circle extends Shape {
         this.radius = radius;
     }
 
-    // Implementing abstract method
+
     @Override
     double area() {
         return Math.PI * radius * radius;
     }
 }
 
-// Subclass 2
 class Rectangle extends Shape {
     double length, width;
 
