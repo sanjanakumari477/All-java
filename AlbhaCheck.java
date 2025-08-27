@@ -9,7 +9,8 @@ import java.util.Scanner;
 	if(ch>='A'&& ch<='Z')
              {
 	    System.out.println("It is Uppercase");
-             }else 
+             }
+	else 
             {
            System.out.println("It is Lowecase");
 
