@@ -18,7 +18,9 @@ public class ArithmeticOperations {
         if (num2 != 0) {
             quotient = num1 / num2;
             remainder = num1 % num2;
-        } else {
+        }
+        else 
+        {
             System.out.println("Division and modulus not possible (division by zero).");
         }
         System.out.println("\nResults:");
