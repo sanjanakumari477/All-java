@@ -19,8 +19,7 @@ public class ArmstrongNumber
             n++;
         }
 
-        
-        temp = number;
+          temp = number;
         while (temp != 0) {
             int digit = temp % 10;
             result += Math.pow(digit, n);
