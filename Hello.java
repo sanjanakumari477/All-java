@@ -1,4 +1,5 @@
-class JavaPre{
+class JavaPre
+{
     public static void main(String[] args)
      {
 
