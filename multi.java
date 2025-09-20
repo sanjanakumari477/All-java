@@ -10,7 +10,6 @@ class Car extends Vehicle {
         System.out.println("Car drives");
     }
 }
-
 class SportsCar extends Car {
     void speed() {
         System.out.println("Sports car speeds fast");
