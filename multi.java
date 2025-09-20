@@ -16,7 +16,6 @@ class SportsCar extends Car {
         System.out.println("Sports car speeds fast");
     }
 }
-
 public class MultilevelInheritance {
     public static void main(String[] args) {
         SportsCar sc = new SportsCar();
