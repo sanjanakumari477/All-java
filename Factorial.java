@@ -1,7 +1,6 @@
 // Java Program to calculate factorial of a number using function
 
 import java.util.Scanner;
-
 public class FactorialProgram {
 
     // Function to calculate factorial
