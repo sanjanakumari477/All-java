@@ -7,7 +7,8 @@ abstract class Shape {
     abstract double area();
 
 
-    void displayColor() {
+    void displayColor()
+    {
         System.out.println("Color: " + color);
     }
 }
