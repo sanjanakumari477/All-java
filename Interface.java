@@ -40,7 +40,7 @@ public class Main {
         // Create objects
         Shape rect = new Rectangle(5, 3);
         Shape circ = new Circle(4);
-
+        
         // Output areas
         System.out.println("Area of Rectangle: " + rect.calculateArea());
         System.out.println("Area of Circle: " + circ.calculateArea());
