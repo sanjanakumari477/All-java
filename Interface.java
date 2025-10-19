@@ -6,13 +6,13 @@ interface Shape {
 // Rectangle class implementing Shape
 class Rectangle implements Shape {
     double length, width;
-
+    
     // Constructor
     Rectangle(double l, double w) {
         length = l;
         width = w;
     }
-
+    
     // Implement calculateArea()
     public double calculateArea() {
         return length * width;
