@@ -1,6 +1,7 @@
 public interface Shape {
     double getArea(); // abstract method
 }
+
 public class Circle implements Shape {
     private double radius;
 
