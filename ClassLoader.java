@@ -1,5 +1,5 @@
-Explain ClassLoader in Java.
-Answer:
+//Explain ClassLoader in Java.
+//Answer:
 ClassLoaders load Java classes into JVM at runtime.
 Types:
 
