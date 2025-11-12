@@ -7,7 +7,6 @@ import java.io.IOException;
 public class FileHandlingExample {
     public static void main(String[] args) {
         String fileName = "example.txt";
-
         // 1. Create and write to the file
         try {
             FileWriter writer = new FileWriter(fileName);
