@@ -2,14 +2,12 @@ class Student {
     int id;
     String name;
     int age;
-
     // Constructor 1: No parameters
     Student() {
         id = 0;
         name = "Unknown";
         age = 0;
     }
-
     // Constructor 2: Only id and name
     Student(int i, String n) {
         id = i;
