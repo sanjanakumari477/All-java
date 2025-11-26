@@ -14,19 +14,16 @@ class Student {
         name = n;
         age = 18; // default age
     }
-
     // Constructor 3: id, name, and age
     Student(int i, String n, int a) {
         id = i;
         name = n;
         age = a;
     }
-
     // Display method
     void display() {
         System.out.println("ID: " + id + ", Name: " + name + ", Age: " + age);
     }
-
     // Main method
     public static void main(String[] args) {
         Student s1 = new Student();                      // calls constructor 1
