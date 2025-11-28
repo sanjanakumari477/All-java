@@ -14,7 +14,7 @@ import java.util.Scanner;
              
               else 
            {
-			   
+			  
             System.out.println("This character is consonent");
                    }
                 }
