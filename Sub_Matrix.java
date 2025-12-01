@@ -11,7 +11,7 @@ public class MatrixSubtraction {
             {3, 1, 5}
         };
 
-      
+  
         int[][] result = new int[2][3];
 
         for (int i = 0; i < matrix1.length; i++) {
