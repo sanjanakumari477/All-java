@@ -10,7 +10,6 @@ public class MatrixSubtraction {
             {2, 4, 1},
             {3, 1, 5}
         };
-
   
         int[][] result = new int[2][3];
 
