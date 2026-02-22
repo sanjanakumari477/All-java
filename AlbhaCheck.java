@@ -11,7 +11,7 @@ import java.util.Scanner;
 	    System.out.println("It is Uppercase");
                }
 	else 
-            {
+            { 
            System.out.println("It is Lowecase");
 
             }
