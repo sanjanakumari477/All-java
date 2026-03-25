@@ -4,12 +4,10 @@ import java.util.Scanner;
 class Student {
     String name;
     int rollNo;
-
     void setStudentDetails(String name, int rollNo) {
         this.name = name;
         this.rollNo = rollNo;
     }
-
     void displayStudent() {
         System.out.println("Name      : " + name);
         System.out.println("Roll No   : " + rollNo);
