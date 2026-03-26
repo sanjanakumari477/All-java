@@ -1,6 +1,8 @@
 import java.util.Scanner;
-public class ArithmeticOperations {
-    public static void main(String[] args) {
+public class ArithmeticOperations
+    {
+    public static void main(String[] args) 
+        {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Enter first number: ");
