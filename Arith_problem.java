@@ -4,7 +4,6 @@ public class ArithmeticOperations
     public static void main(String[] args) 
         {
         Scanner input = new Scanner(System.in);
-        
         System.out.print("Enter first number: ");
         double num1 = input.nextDouble();
 
