@@ -3,7 +3,6 @@ abstract class Shape {
     Shape(String color) {
         this.color = color;
     }
-
     abstract double area();
     void displayColor()
     {
