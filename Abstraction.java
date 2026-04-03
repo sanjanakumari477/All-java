@@ -9,7 +9,6 @@ abstract class Shape {
         System.out.println("Color: " + color);
     }
 }
-
 class Circle extends Shape {
     double radius;
 
