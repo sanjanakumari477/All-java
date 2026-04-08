@@ -9,7 +9,7 @@ import java.util.Scanner;
  	if(ch=='a'||ch=='A'||ch=='e'||ch=='E'||ch=='i'||ch=='I'||ch=='o'||ch=='O'||ch=='u'||ch=='U')
      	 
 	       {
-            System.out.println("This character is vowel");
+             System.out.println("This character is vowel");
                   }
              
               else 
