@@ -19,7 +19,6 @@ public class ArmstrongNumber
             int digit = temp % 10;
             result += Math.pow(digit, n);
             temp /= 10;
-        
         if (result == originalNumber) {
             System.out.println(originalNumber + " is an Armstrong number.");
         } else {
