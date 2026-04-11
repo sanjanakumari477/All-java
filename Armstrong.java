@@ -10,7 +10,6 @@ public class ArmstrongNumber
         int originalNumber = number;
         int result = 0;
         int n = 0;
-
         int temp = number;
         while (temp != 0) {
             temp /= 10;
