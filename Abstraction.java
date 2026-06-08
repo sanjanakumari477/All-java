@@ -40,7 +40,8 @@ class Rectangle extends Shape {
     }
 }
 
-// Main class
+// Main 
+
 public class Main {
     public static void main(String[] args) {
         Shape circle = new Circle("Red", 5);
