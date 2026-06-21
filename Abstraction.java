@@ -1,4 +1,4 @@
-abstract class Shape {
+abstract class Shape  {
     String color
     Shape(String color) {
         this.color = color;
