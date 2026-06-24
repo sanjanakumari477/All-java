@@ -5,7 +5,9 @@ import java.util.Scanner;
 	System.out.print("enter any character=");
 	
 	char ch= sc.next().charAt(0);
+			
 	if(ch>='A'&& ch<='Z')
+		
 		{
 	    System.out.println("It is Uppercase");
                }
