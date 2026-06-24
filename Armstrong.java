@@ -21,9 +21,10 @@ public class ArmstrongNumber
             temp /= 10;
         if (result == originalNumber) {
             System.out.println(originalNumber + " is an Armstrong number.");
-        } else {
+        } 
+        else {
             System.out.println(originalNumber + " is not an Armstrong number.");
-        }
+               }
         input.close();
     }
  }
