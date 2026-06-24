@@ -19,9 +19,10 @@ public class ArithmeticOperations
             remainder = num1 % num2;
         }
         else 
-        {
-            System.out.println("Division and modulus not possible (division by zero).");
-        }
+             {
+             System.out.println("Division and modulus not possible (division by zero).");
+                           }
+            
         System.out.println("\nResults:");
         System.out.println("Addition: " + sum);
         System.out.println("Subtraction: " + difference);
